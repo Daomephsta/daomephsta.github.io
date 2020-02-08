@@ -1,0 +1,8 @@
+site:
+  title: Daomephsta's Blog
+  description: Daomephsta's Blog
+  base_url: https://daomephsta.github.io/
+  data:
+    domain: daomephsta.github.io
+posts:
+  publish_date_in_filename: false

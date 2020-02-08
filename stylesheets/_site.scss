@@ -1,0 +1,11 @@
+$primary-colour: powderblue;
+$secondary-colour: #EFFFFF;
+$content-font: bold 1em "Arial";
+$nav-text-font: bold 2em "Arial";
+
+:root
+{
+    background-color: $primary-colour;
+    color: $secondary-colour;
+    font: $content-font;
+}

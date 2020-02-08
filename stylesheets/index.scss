@@ -1,0 +1,70 @@
+@import 'site';
+
+body
+{
+    display: flex;
+}
+
+.left-nav
+{   
+    float: left;
+    flex: 1;
+    text-align: left;
+    padding-left: 0;
+    margin: 0;
+    list-style-type: none;
+    font: $nav-text-font;
+    background-color: $primary-colour;
+}
+
+.centre
+{
+    flex: 2;
+    text-align: center;
+    font-size: 2em;
+}
+
+.right-nav
+{   
+    float: right;
+    flex: 1;
+    text-align: right;
+    padding-right: 0;
+    margin: 0;
+    list-style-type: none;
+    font: $nav-text-font;
+    background-color: $primary-colour;
+}
+
+.nav-button
+{
+    transition: all .2s ease-in-out;
+    padding: 5px;
+    margin: auto 0;
+    a
+    {
+        text-decoration: none;
+        color: $secondary-colour;
+    }
+}
+
+.left-nav > .nav-button:hover
+{
+    transform: translateX(10px);
+}
+
+.right-nav > .nav-button:hover
+{
+    transform: translateX(-10px);
+}
+
+#github-link-image
+{
+    vertical-align: middle;
+}
+
+#github-link-text
+{
+    vertical-align: middle;
+    margin-left: 5px;
+}
