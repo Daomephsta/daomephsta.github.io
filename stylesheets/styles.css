@@ -1,0 +1,25 @@
+:root {
+  background-color: #EFFFFF;
+  color: black;
+  font: 1em "Arial"; }
+
+/**Navigation crumbs**/
+.crumbs {
+  color: powderblue;
+  padding-left: 0;
+  list-style-type: none;
+  font: bold 1em "Arial"; }
+  .crumbs li {
+    display: inline-block; }
+
+/**Select only li that come after another li**/
+.crumbs li + li:before {
+  content: "> "; }
+
+h1, h2, h3, h4, h5, h6 {
+  color: powderblue; }
+
+/**Central Content Pane**/
+header, main {
+  max-width: 880px;
+  margin: auto; }

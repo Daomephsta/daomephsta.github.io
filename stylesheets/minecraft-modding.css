@@ -1,0 +1,19 @@
+:root {
+  background-color: #EFFFFF;
+  color: black;
+  font: 1em "Arial"; }
+
+/**Central Content Pane**/
+header, main {
+  max-width: 880px;
+  margin: auto; }
+
+.crumbs {
+  padding-left: 0;
+  list-style-type: none; }
+  .crumbs li {
+    display: inline-block; }
+
+/**Select only li that come after another li**/
+.crumbs li + li:before {
+  content: "> "; }

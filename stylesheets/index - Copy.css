@@ -1,30 +1,35 @@
 :root {
-  background-color: #EFFFFF;
-  color: black;
-  font: 1em "Arial"; }
+  background-color: powderblue;
+  color: #EFFFFF;
+  font: bold 1em "Arial"; }
 
-main {
-  display: flex;
-  flex-direction: row; }
-  main > * {
-    flex: auto;
-    padding: 0; }
-
-.nav-list {
-  margin: 0;
-  max-width: 300px;
-  list-style-type: none;
-  font: bold 2em "Arial"; }
+body {
+  display: flex; }
 
 .left-nav {
-  text-align: left; }
+  float: left;
+  flex: 1;
+  text-align: left;
+  padding-left: 0;
+  margin: 0;
+  list-style-type: none;
+  font: bold 2em "Arial";
+  background-color: powderblue; }
 
 .centre {
+  flex: 2;
   text-align: center;
   font-size: 2em; }
 
 .right-nav {
-  text-align: right; }
+  float: right;
+  flex: 1;
+  text-align: right;
+  padding-right: 0;
+  margin: 0;
+  list-style-type: none;
+  font: bold 2em "Arial";
+  background-color: powderblue; }
 
 .nav-button {
   transition: all .2s ease-in-out;
@@ -32,7 +37,7 @@ main {
   margin: auto 0; }
   .nav-button a {
     text-decoration: none;
-    color: powderblue; }
+    color: #EFFFFF; }
 
 .left-nav > .nav-button:hover {
   transform: translateX(10px); }
